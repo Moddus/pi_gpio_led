@@ -33,5 +33,6 @@ int main() {
 		wiringpi_led_on();		
 		wiringpi_delay(500);
 		wiringpi_led_off();
+		wiringpi_delay(500);
 	}
 }
